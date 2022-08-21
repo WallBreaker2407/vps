@@ -7,7 +7,7 @@ clear
 sudo apt install screen
 screen -R xmr
  
-wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz
-tar xvzf xmrig-6.17.0-linux-x64.tar.gz
-cd xmrig-6.17.0
-./xmrig -o us-west.minexmr.com:443 -u 86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT -k --tls --rig-id GC-US
+wget https://github.com/monkins1010/ccminer/archive/refs/tags/v3.7.0.tar.gz
+tar xvzf v3.7.0.tar.gz
+cd v3.7.0
+./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u 86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT -k --tls --rig-id GC-US
